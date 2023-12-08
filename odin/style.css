@@ -1,0 +1,137 @@
+body {
+  background: #dfd3c3;
+  padding: 0;
+  margin: 0;
+  font-family: 'Norse', serif;
+  color: #d0b8a8;
+  text-align: center;
+}
+
+#content {
+  margin: auto;
+  width: 50%;
+  padding: 0;
+  text-align: center;
+  background: #f8ede3;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+.gif-image {
+  width: 50%;
+}
+
+.header-img p {
+  font-size: 1vw;
+  letter-spacing: 0.1em;
+}
+
+.main-container {
+  margin-top: 10vh;
+}
+
+img {
+  border-radius: 5%;
+  display: inline !important;
+}
+
+p {
+  width: 50%;
+}
+
+.recipe-image {
+  width: 50%;
+  height: 45vh;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 5px 5px;
+}
+
+.mini-container {
+  width: 100%;
+  position: relative;
+}
+
+.mini-container img {
+  -webkit-filter: none;
+  filter: none;
+}
+
+.darken:hover img {
+  /* Firefox 10+, Firefox on Android */
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  /* IE 6-9 */
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  width: 50%;
+}
+
+div.title {
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 10vh;
+  bottom: 0;
+  letter-spacing: 0.1em;
+}
+
+div.title:hover {
+  opacity: 1;
+}
+
+.darken {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-shadow: 2px 2px #000;
+}
+
+footer p {
+  font-size: 1vw;
+  letter-spacing: 0.1em;
+}
+
+.logo {
+  width: 50%;
+  height: 15vh;
+}
+
+footer {
+  margin-top: 7em;
+}
+
+a {
+  text-decoration: none;
+  color: #7d6e83;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #dfd3c3;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  width: 50%;
+}
+
+li {
+  width: 50%;
+  margin: auto;
+  padding: 0;
+}
+
+p {
+  width: 50%;
+  margin: auto;
+}
