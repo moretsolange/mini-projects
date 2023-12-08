@@ -1,0 +1,203 @@
+body {
+  background: #67b26f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4ca2cd,
+    #67b26f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4ca2cd,
+    #67b26f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.title-container {
+  margin: auto;
+  width: 700px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: var(--neutral-100, #fff);
+  box-shadow: 0px 12px 24px 0px rgba(20, 20, 43, 0.04),
+    0px -2px 4px 0px rgba(20, 20, 43, 0.02),
+    0px 3px 14px 0px rgba(74, 58, 255, 0.03);
+}
+
+.main-title {
+  color: var(--neutral-800, #170f49);
+  font-feature-settings: "clig" off, "liga" off;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 109.375% */
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+.second-title-container {
+  width: 250px;
+  margin: auto;
+}
+.second-title {
+  color: var(--neutral-800, #170f49);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 135.294% */
+  padding-top: 25px;
+}
+
+.subtitle {
+  color: #170f49;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+  height: 400px;
+  flex-shrink: 0;
+  border-radius: 34px;
+  border: 1px solid #eff0f6;
+  background: #faf8f8;
+
+  /* Cards/Short Default */
+  box-shadow: 0px 5px 16px 0px rgba(8, 15, 52, 0.06);
+}
+
+.container-title {
+  color: var(--neutral-800, #170f49);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 145.833% */
+  margin-left: 30px;
+}
+
+.container-subtitle {
+  color: #6f6c90;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  margin-left: 30px;
+  margin-top: -15px;
+}
+
+.line {
+  border: 1px solid #d9dbe9;
+  width: 430px;
+  margin-left: 30px;
+}
+
+.gram-text {
+  color: var(--neutral-800, #170f49);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Other/18-20 M */
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 111.111% */
+  margin-left: 30px;
+}
+
+.error{
+  color: var(--neutral-800, red);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Other/18-20 M */
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 111.111% */
+  margin-left: 30px;
+  font-weight:bold;
+}
+
+.kg-text {
+  color: var(--neutral-800, #170f49);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Other/18-20 M */
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 111.111% */
+  margin-left: 30px;
+}
+
+.gramsInput {
+  border-radius: 46px;
+  border: 1px solid var(--neutral-300, #eff0f6);
+  background: var(--neutral-100, #fff);
+
+  /* Input/Default */
+  box-shadow: 0px 2px 6px 0px rgba(19, 18, 66, 0.07);
+  margin-left: 30px;
+  height: 30px;
+}
+
+.kgs {
+  border-radius: 46px;
+  border: 1px solid var(--neutral-300, #eff0f6);
+  background: #dfdfdf;
+
+  /* Input/Default */
+  box-shadow: 0px 2px 6px 0px rgba(19, 18, 66, 0.07);
+  margin-left: 30px;
+  height: 30px;
+}
+
+.btn {
+  background: #67b26f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4ca2cd,
+    #67b26f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4ca2cd,
+    #67b26f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  width: 100px;
+  height: 40px;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 56px;
+  box-shadow: 0px 3px 12px 0px rgba(74, 58, 255, 0.18);
+  margin-left: 70%;
+  margin-top: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform:uppercase;
+  letter-spacing:0.5px;
+  font-family: DM Sans;
+}

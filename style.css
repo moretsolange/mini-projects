@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  font-size: 1.6rem;
+  place-items: center;
+  background: linear-gradient(to right bottom, #6c5f5b, #ed7d31);
+  font-family: Rockwell, "Courier New", Courier, Georgia, Times,
+    "Times New Roman", serif;
+}
+
+.container {
+  width: 40vw;
+  padding: 3rem;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+  border-radius: 3rem;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 184, 142, 0.44),
+    #6c5f5b
+  );
+}
+.container::-webkit-scrollbar {
+  width: 0;
+}
+.container::before {
+  content: "";
+  top: -10rem;
+  left: -10rem;
+  width: 40rem;
+  height: 40rem;
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+}
+.container::after {
+  content: "";
+  bottom: 0rem;
+  right: -10rem;
+  width: 40rem;
+  height: 40rem;
+  margin-bottom: -25rem;
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 185, 142, 0.6);
+}
+.container h1 {
+  top: 0;
+  margin: 0;
+  padding: 6rem 0;
+  padding-top: 7rem;
+  position: sticky;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 3rem;
+  box-shadow: 0 7px 2rem black;
+  background: #ed7d31;
+}
+.container ul {
+  margin: 0;
+  gap: 1rem;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  place-items: center;
+  flex-direction: column;
+}
+.container ul li {
+  width: 40rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 3rem;
+  background: #ed7d31;
+  padding: 1.1rem 1.5rem 1.1rem 1.5rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #6c5f5b;
+}
+
+/*# sourceMappingURL=style.css.map */
