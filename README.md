@@ -1,1 +1,1 @@
-LIVE: https://brittythed00m.github.io/javascriptmas/
+LIVE: https://brittythed00m.github.io/mini-projects/
