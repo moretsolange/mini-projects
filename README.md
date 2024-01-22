@@ -1,1 +1,1 @@
-LIVE: https://brittythed00m.github.io/mini-projects/
+LIVE: https://moretsolange.github.io/mini-projects/
